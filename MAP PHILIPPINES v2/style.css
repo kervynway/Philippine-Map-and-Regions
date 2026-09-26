@@ -41,3 +41,17 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+/* Add this to your style.css */
+#ph-map g path {
+    fill: #0288d1;
+    stroke: #ffffff;
+    stroke-width: 2;
+    transition: fill 0.3s;
+}
+
+#ph-map g:hover path,
+#ph-map g.highlighted-region path {
+    fill: #ffb300; 
+    cursor: pointer;
+}
