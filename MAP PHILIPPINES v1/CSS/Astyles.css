@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Wayfont", sans-serif;
+    box-sizing: border-box;
+}
+
+
+.lol{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(40, 18, 137, 0.3),rgba(141, 93, 180, 0.354));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 200px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.about h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.ker::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.ker:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.ker:hover{
+    color: rgb(245, 179, 240);
+}
+
+
+
+
+
+
+
+@font-face{
+    font-family: "WayFont";
+    src: url("Poppins.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Waybold";
+    src: url("Hanson-Bold.ttf") format('truetype');
+}

@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.lol{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(black, darkviolet);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 200px;
+}
+
+nav ul li{
+    font-family: "Wayfont", sans-serif;
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.way{
+    width: 30%;
+    height: auto;
+    display: flex;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+}
+
+.name{
+    text-align: center;
+}
+
+h1{
+    font-family: "Waybold", sans-serif;
+    font-size: 200px;
+    color: white;
+    font-weight: 600;
+    position: fixed;
+    top: 30%;
+    left: 14.95%;
+}
+.outline{
+    font-family: "Waybold", sans-serif;
+    font-size: 200px;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;
+    font-weight: 600;
+    position: fixed;
+    top: 30%;
+    left: 14.95%;
+    z-index: 2;
+}
+
+h3{
+    font-family: "Waybold", sans-serif;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    top: 54%;
+    left: 15.2%;
+    z-index: 2;
+}
+p{
+    display: inline-block;
+    color: black;
+    font-family: "Wayfont", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 61%;
+    left: 15.2%;
+    z-index: 3;
+}
+
+h4{
+    font-family: "Wayfont", sans-serif;
+    display: inline-block;
+}
+
+.name button{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    display: inline-block;
+    color: transparent;
+    background: white;
+    font-size: 20px;
+    font-family: "wayfont", sans-serif;
+    border: 2px solid white;
+    padding: 12px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+button:hover{
+    box-shadow: 0 0 5px white, 0 0 25px white, 
+    0 0 50px white, 0 0 100px white;
+}
+
+.ker::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.ker:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.ker:hover{
+    color: rgb(245, 179, 240);
+}
+
+
+.detail p{
+    font-size: large;
+    display: flex;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 68%;
+    margin-right: 15%;
+}
+
+
+
+
+
+@font-face{
+    font-family: "WayFont";
+    src: url("Poppins.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Waybold";
+    src: url("Hanson-Bold.ttf") format('truetype');
+}

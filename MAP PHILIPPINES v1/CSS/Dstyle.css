@@ -1,0 +1,1484 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Wayfont", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Wayfont", sans-serif;
+}
+
+
+
+
+
+
+
+
+/*NCR*/
+.lol{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#f7d7dc, #f46d75);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CAR*/
+.lol1{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(43, 138, 21, 0.262),rgba(8, 74, 20, 0.3));
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 1*/
+.wind{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#f9ddb1, #f1b04c);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 2*/
+.valley{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(44, 24, 222, 0.3),rgba(26, 8, 74, 0.3));
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 3*/
+.tubo{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#ece75f,#f7f5bc);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 4A*/
+.taalv{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#deacf5,darkviolet);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 4B*/
+.ropa{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#3f7a96,#E2FDFE);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 5*/
+.mayon{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgb(133, 133, 133),rgb(212, 212, 212));
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 6*/
+.boracay{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#359c69,#B0C9C0);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 7*/
+.choco{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#b8b20b,#fffdd0);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 8*/
+.bridge{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgb(165, 165, 165),rgb(136, 136, 136));
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 9*/
+.fall{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#d2b48c,#e5d3b3);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 10*/
+.maria{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#f6d626,#eab815);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 11*/
+.apo{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#4c5979,#426fe1);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 12*/
+.sebu{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#ffc2d1,#ffe5ec);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*REGION 13*/
+.siargao{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgb(165, 165, 165),rgb(217, 199, 221));
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*BARMM*/
+.mosque{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#f18496,#e289a7);
+    position: relative;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 200px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+/*NCR*/
+nav ul li.MAN{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.MAN{
+    text-decoration: none;
+    color: #ba0001;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*CAR*/
+nav ul li.RICE{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.RICE{
+    text-decoration: none;
+    color: green;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 1*/
+nav ul li.WIN{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.WIN{
+    text-decoration: none;
+    color: orange;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 2*/
+nav ul li.VAL{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.VAL{
+    text-decoration: none;
+    color: #190086;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 3*/
+nav ul li.PINA{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.PINA{
+    text-decoration: none;
+    color: #E6B400;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 4A*/
+nav ul li.TAAL{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.TAAL{
+    text-decoration: none;
+    color: darkviolet;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 4B*/
+nav ul li.PAL{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.PAL{
+    text-decoration: none;
+    color: cyan;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 5*/
+nav ul li.ALB{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.ALB{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 6*/
+nav ul li.BOR{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.BORA{
+    text-decoration: none;
+    color: cyan;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 7*/
+nav ul li.CHO{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.CHO{
+    text-decoration: none;
+    color: #fff700;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 8*/
+nav ul li.SJB{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.SJB{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 9*/
+nav ul li.FAL{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.FAL{
+    text-decoration: none;
+    color: #664229;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 10*/
+nav ul li.MCF{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.MCF{
+    text-decoration: none;
+    color: #795809;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 11*/
+nav ul li.APO{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.APO{
+    text-decoration: none;
+    color: #03123e;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 12*/
+nav ul li.SEB{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.SEB{
+    text-decoration: none;
+    color: #fb6f92;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION 13*/
+nav ul li.SIA{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.SIA{
+    text-decoration: none;
+    color: silver;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/*REGION BARMM*/
+nav ul li.MOS{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a.MOS{
+    text-decoration: none;
+    color: #7b0407;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+/*Navigation Menu*/
+
+/*NCR Go Back Menu*/
+.ker::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.ker:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.ker:hover{
+    color: #ba0001;
+}
+
+.MAN::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ba0001;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.MAN:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.MAN:hover{
+    color: white;
+}
+
+/*--------------------------------------------*/
+/*CAR Go Back Menu*/
+.ker1::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.ker1:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.ker1:hover{
+    color: rgb(17, 120, 19);
+}
+
+.RICE::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(14, 109, 7);
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.RICE:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.RICE:hover{
+    color: white;
+}
+
+/*--------------------------------------------*/
+/*REG1 Go Back Menu*/
+.reg1::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg1:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg1:hover{
+    color: orange;
+}
+
+.WIN::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: orange;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.WIN:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.WIN:hover{
+    color: white;
+}
+/*--------------------------------------------*/
+/*REG2 Go Back Menu*/
+.reg2::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg2:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg2:hover{
+    color: #190086;
+}
+
+.VAL::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #190086;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.VAL:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.VAL:hover{
+    color: white;
+}
+/*-------------------------------------------------*/
+/*REG3 Go Back Menu*/
+.reg3::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg3:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg3:hover{
+    color: #E6B400;
+}
+
+.PINA::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #E6B400;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.PINA:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.PINA:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*REG4A Go Back Menu*/
+.reg4a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg4a:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg4a:hover{
+    color: darkviolet;
+}
+
+.TAAL::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: darkviolet;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.TAAL:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.TAAL:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE4B Go Back Menu*/
+.reg4b::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg4b:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg4b:hover{
+    color: cyan;
+}
+
+.PAL::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: cyan;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.PAL:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.PAL:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE5 Go Back Menu*/
+.reg5::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg5:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg5:hover{
+    color: black;
+}
+
+.ALB::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.ALB:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.ALB:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE6 Go Back Menu*/
+.reg6::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg6:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg6:hover{
+    color: #98ff98;
+}
+
+.BORA::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #98ff98;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.BORA:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.BORA:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE7 Go Back Menu*/
+.reg7::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg7:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg7:hover{
+    color: #fff700;
+}
+
+.CHO::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff700;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.CHO:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.CHO:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE8 Go Back Menu*/
+.reg8::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg8:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg8:hover{
+    color: black;
+}
+
+.SJB::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.SJB:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.SJB:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE9 Go Back Menu*/
+.reg9::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg9:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg9:hover{
+    color: #664229;
+}
+
+.FAL::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #664229;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.FAL:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.FAL:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE10 Go Back Menu*/
+.reg10::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg10:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg10:hover{
+    color: #795809;
+}
+
+.MCF::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #795809;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.MCF:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.MCF:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE11 Go Back Menu*/
+.reg11::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg11:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg11:hover{
+    color: #03123e;
+}
+
+.APO::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #03123e;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.APO:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.APO:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE12 Go Back Menu*/
+.reg12::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg12:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg12:hover{
+    color: #fb6f92;
+}
+
+.SEB::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fb6f92;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.SEB:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.SEB:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*RE13 Go Back Menu*/
+.reg13::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.reg13:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.reg13:hover{
+    color: silver;
+}
+
+.SIA::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: silver;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.SIA:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.SIA:hover{
+    color: white;
+}
+
+/*-------------------------------------------------*/
+/*BARMM Go Back Menu*/
+.bar::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.bar:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.bar:hover{
+    color: #7b0407;
+}
+
+.MOS::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #7b0407;
+    transform: scale(0, 1);
+    transition: transform 1s ease;
+}
+
+.MOS:hover::after{
+    width: 100%;
+    transform: scale(1, 1);
+    transition: transform 1s ease;
+}
+
+.MOS:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*all Design*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0 auto;
+    padding: 20px;
+    overflow: auto;
+  }
+
+h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+
+p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 20px;
+  }
+
+
+
+
+
+
+
+
+/*NCR Design*/
+.mch {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -87%;
+  } 
+.ncr {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+
+/*CAR Design*/
+.rice {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -3%;
+  }
+
+.car {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+
+/*Region 1 Design*/
+.win {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -6%;
+  }
+
+.r1 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+
+/*Region 2 Design*/
+.val {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -11%;
+  }
+.r2 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+
+/*Region 3 Design*/
+.pinat {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -23%;
+  }
+.r3 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+
+/*Region 4A Design*/
+.taal {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -6%;
+  }
+.r4a {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+
+  /*Region 4B Design*/
+.coron {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: 1%;
+  }
+.r4b {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+
+  /*Region 5 Design*/
+.may {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -16%;
+  }
+.r5 {
+    flex: 1;
+    margin-top: 5%;
+  }
+.r5 h1{
+    color: white;
+}
+
+  /*Region 6 Design*/
+.bora {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -19%;
+  }
+.r3 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+  /*Region 7 Design*/
+.cho {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -7%;
+  }
+.r7 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+  /*Region 8 Design*/
+.sjb {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -9%;
+  }
+.r8 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+  /*Region 9 Design*/
+.falls {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -29px;
+  }
+.r9 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+  /*Region 10 Design*/
+.mcf {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -7%;
+  }
+.r10 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+  /*Region 11 Design*/
+.mt {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -12%;
+  }
+.r11 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+  /*Region 12 Design*/
+.seb {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -5%;
+  }
+.r12 {
+    flex: 1;
+    margin-top: 5%;
+  }
+
+  /*Region 13 Design*/
+.sia {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -2%;
+  }
+.r13 {
+    flex: 1;
+    margin-top: 5%;
+  }
+.r13 h1{
+    color: white;
+}
+
+  /*MOS Design*/
+.mos {
+    flex: 0 0 300px; 
+    width: 500px;/* Adjust the width of the image */
+    margin-right: 10px;
+    margin-top: -23%;
+  }
+.barmm {
+    flex: 1;
+    margin-top: 5%;
+  }
+/*-------------------*/
+
+@font-face{
+    font-family: "WayFont";
+    src: url("Poppins.ttf") format('truetype');
+}
