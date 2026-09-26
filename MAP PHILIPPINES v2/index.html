@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Philippine Regional Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- The SVG Map (Simplified for example) -->
+        <div class="map-container">
+            <svg viewBox="0 0 500 500" id="ph-map">
+                <!-- ID must match the JavaScript object keys -->
+                <path id="region-ncr" d="M200,150 L250,150 L250,200 L200,200 Z" />
+                <path id="region-4a" d="M200,200 L300,200 L300,300 L200,300 Z" />
+            </svg>
+        </div>
+
+        <!-- The Information Panel -->
+        <div class="info-panel" id="info-panel">
+            <h2>Select a region</h2>
+            <p>Click on the map to see regional data here.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
