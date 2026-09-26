@@ -1,0 +1,43 @@
+/* Basic page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* SVG Map Styling */
+.map-container {
+    flex: 1;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Base style for all regions */
+#ph-map path {
+    fill: #0288d1;        /* Default color */
+    stroke: #ffffff;      /* White borders between regions */
+    stroke-width: 2;
+    transition: fill 0.3s; /* Smooth color change */
+    cursor: pointer;      /* Changes mouse to a clicking hand */
+}
+
+/* Hover state: What happens when the mouse is over a region */
+#ph-map path:hover {
+    fill: #ffb300; 
+}
+
+/* Info Panel Styling */
+.info-panel {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
