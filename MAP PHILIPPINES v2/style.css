@@ -55,3 +55,37 @@ body {
     fill: #ffb300; 
     cursor: pointer;
 }
+
+/* --- LAYOUT LOCKING --- */
+
+/* Lock the map card height and center the SVG */
+.map-card {
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure the map scales perfectly within its locked box */
+#ph-map {
+    max-height: 100%;
+    width: auto;
+}
+
+/* Lock the info panel height and enable internal scrolling */
+.info-card {
+    height: 575px; 
+    overflow-y: auto;
+}
+
+/* Custom modern scrollbar for the info panel */
+.info-card::-webkit-scrollbar {
+    width: 6px;
+}
+.info-card::-webkit-scrollbar-track {
+    background: transparent;
+}
+.info-card::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 10px;
+}
