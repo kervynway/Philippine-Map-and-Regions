@@ -4,13 +4,6 @@ body {
     background-color: #f4f4f9;
 }
 
-.container {
-    display: flex;
-    gap: 20px;
-    max-width: 800px;
-    margin: 40px auto;
-}
-
 /* SVG Map Styling */
 .map-container {
     flex: 1;
